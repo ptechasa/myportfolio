@@ -30,7 +30,7 @@ git commit -m "initial files"
 git remote add origin git@github.com:ptechasa/myportfolio.git
 git push -u origin master
 ```
-Once deploying success, it will show
+Once deploying successfully, it will show
 ```
 To https://github.com/ptechasa/myportfolio.git
  * [new branch]      master -> master
