@@ -1,3 +1,46 @@
+# Pananart's Portfolio
+
+## Creating a React App:
+1. Setting up the boilerplate application: Open up terminal and run 
+```
+npm install -g create-react-app 
+```
+2. Navigate to the parent directory that you would like to place the application within.<br />
+Then, run `create-react-app` with the name of your project.<br /> 
+*npm naming restrictions: name can no longer contain capital letters*
+```
+create-react-app myportfolio
+```
+3. After setting up completely, we'll begin by typing:
+```
+cd myportfolio
+npm start
+```
+It will start the React App Development Server. It should auto-open a tab in your browser that points to [http://localhost:3000](http://localhost:3000)
+
+## Deploying a React App to your GitHub Pages
+1. Go to your GitHub Account and click `New repository` at the upper-right corner of page.<br />
+2. On Repository name: <myportfolio>
+3. Navigate to the parent directory of your project.<br />
+Open up terminal and typing:
+```
+git init
+git add .
+git commit -m "initial files"
+git remote add origin git@github.com:ptechasa/myportfolio.git
+git push -u origin master
+```
+Once deploying success, it will show
+```
+To https://github.com/ptechasa/myportfolio.git
+ * [new branch]      master -> master
+ ```
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
