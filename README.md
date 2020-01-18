@@ -20,7 +20,7 @@ It will start the React App Development Server. It should auto-open a tab in you
 
 ## Deploying a React App to your GitHub Pages
 1. Go to your GitHub Account and click `New repository` at the upper-right corner of page.<br />
-2. On Repository name: <myportfolio>
+2. On Repository name: `myportfolio`. Fill your `<project name>` in the box.
 3. Navigate to the parent directory of your project.<br />
 Open up terminal and typing:
 ```
@@ -28,9 +28,9 @@ git init
 git add .
 git commit -m "initial files"
 git remote add origin git@github.com:ptechasa/myportfolio.git
-git push -u origin master
+git push origin master
 ```
-Once deploying successfully, it will show
+Once deploying successfully, it will show your repository name on Github.
 ```
 To https://github.com/ptechasa/myportfolio.git
  * [new branch]      master -> master
