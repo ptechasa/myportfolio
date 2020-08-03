@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/runtime": "^7.8.3",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "acorn": "^7.2.0",
-    "bootstrap": "^4.4.1",
+    "@babel/runtime": "^7.11.0",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^12.1.0",
+    "acorn": "^7.4.0",
+    "bootstrap": "^4.5.0",
+    "dot-prop": "^5.2.0",
+    "elliptic": "^6.5.3",
     "patch-package": "^6.2.2",
-    "react": "^16.12.0",
+    "react": "^16.13.1",
     "react-dev-utils": "^10.2.1",
-    "react-dom": "^16.12.0",
-    "serialize-javascript": "^2.1.2"
+    "react-dom": "^16.13.1",
+    "serialize-javascript": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,7 +40,7 @@
   },
   "devDependencies": {
     "minimist": "^1.2.5",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^3.4.1",
     "webpack-serve": "^3.2.0"
   }
 }
